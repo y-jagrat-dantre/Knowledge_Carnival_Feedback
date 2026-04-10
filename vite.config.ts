@@ -11,7 +11,7 @@ export default defineConfig({
     port: 8080,
   },
 
-  plugins: [react()], // ❌ removed lovable-tagger
+  plugins: [react()],
 
   resolve: {
     alias: {
