@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Knowledge_Carnival_Feedback_Web/", // 🔥 IMPORTANT for GitHub Pages
+  base: "/Knowledge_Carnival_Feedback/", // 🔥 IMPORTANT for GitHub Pages
 
   server: {
     host: true,
