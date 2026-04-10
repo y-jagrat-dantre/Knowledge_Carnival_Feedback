@@ -9,7 +9,7 @@ export async function generatePDF(entry: FeedbackEntry) {
 
   // 🔥 Load your certificate image
   const img = new Image();
-  img.src = "public/Certificate.png"; // make sure image is in public folder
+  img.src = "./public/Certificate.png"; // make sure image is in public folder
 
   img.onload = () => {
     // 🖼️ Add image as FULL background
